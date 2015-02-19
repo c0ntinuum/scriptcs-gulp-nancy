@@ -1,2 +1,3 @@
 # scriptcs-gulp-nancy-mono-demo
-A demo of combining ScriptCs, Gulp, NancyFX and Mono to create a lower-friction web development stack
+
+Combining ScriptCs, Gulp, NancyFX and Mono for a lower-friction web dev stack.
