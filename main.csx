@@ -10,8 +10,8 @@ var address = "http://localhost:1234/";
 
 using (var host = new NancyHost(new Uri(address)))
 {
-  host.Start();
-  Console.WriteLine("Nancy is running at: " + address);
-  Thread.Sleep(1000);
-  // host.Stop();
+    host.Start();
+    Console.WriteLine("Nancy is running at: " + address);
+    Thread.Sleep(1000);
+    // host.Stop();
 }

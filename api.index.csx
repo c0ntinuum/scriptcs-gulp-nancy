@@ -2,11 +2,11 @@ using Nancy;
 
 public class IndexModule : NancyModule
 {
-  public IndexModule()
-  {
-    Get["/", true] = async (x, ct) =>
+    public IndexModule()
     {
-      return await Task.FromResult<string>("Hello, world!");
-    };
-  }
+        Get["/", true] = async (x, ct) =>
+        {
+            return await Task.FromResult<string>("Hello, world!");
+        };
+    }
 }
